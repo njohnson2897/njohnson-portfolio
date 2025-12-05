@@ -33,8 +33,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Get In Touch</h2>
-          <p className="section-subtitle">Let's work together</p>
+          <h2 className="section-title">Contact</h2>
         </div>
         <div className="contact-content">
           <div className="contact-info">

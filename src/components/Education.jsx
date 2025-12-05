@@ -28,7 +28,6 @@ const Education = () => {
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Education</h2>
-          <p className="section-subtitle">My academic background</p>
         </div>
         <div className="education-grid">
           {education.map((edu) => (

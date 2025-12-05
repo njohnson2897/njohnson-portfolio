@@ -5,21 +5,21 @@ const Projects = () => {
       title: "Bookmarkd",
       description:
         "A social media platform for book lovers, inspired by Letterboxd. Users can create accounts, add books to their reading lists, post reviews, and form book clubs. Features Google Books API integration and MongoDB database.",
-      image: "/assets/images/projects/bookmarkd-landing-page-screenshot.JPG",
-      liveUrl: "https://bookmarkd-boln.onrender.com/",
+      image: "/assets/images/projects/bookmarkd.PNG",
+      liveUrl: "https://bookmarkd-c936.onrender.com",
       githubUrl: "https://github.com/njohnson2897/bookmarkd",
       technologies: ["React", "Node.js", "MongoDB", "Google Books API"],
       featured: true,
     },
     {
       id: 2,
-      title: "Activ",
+      title: "JuneGames",
       description:
         "A workout tracking and social fitness application that allows users to track workouts, view other users' activities for inspiration, and share accomplishments with friends.",
-      image: "/assets/images/projects/activ.PNG",
-      liveUrl: "https://activ.onrender.com/",
-      githubUrl: "https://github.com/njohnson2897/activ",
-      technologies: ["Handlebars", "Express.js", "MySQL", "Sequelize"],
+      image: "/assets/images/projects/junegames.PNG",
+      liveUrl: "https://junegames.onrender.com",
+      githubUrl: "https://github.com/njohnson2897/JuneGames",
+      technologies: ["React", "JavaScript", "CSS", "HTML5"],
     },
     {
       id: 3,
@@ -27,9 +27,9 @@ const Projects = () => {
       description:
         "A daily trivia game inspired by NYT Connections and Wordle. Features 10 daily questions with scoring, social sharing capabilities, and friend comparison features.",
       image: "/assets/images/projects/trivl.PNG",
-      liveUrl: "https://njohnson2897.github.io/trivl-project/",
+      liveUrl: "https://trivl.onrender.com/",
       githubUrl: "https://github.com/njohnson2897/trivl-project",
-      technologies: ["JavaScript", "HTML5", "CSS3", "Local Storage"],
+      technologies: ["JavaScript", "HTML5", "CSS", "React"],
     },
     {
       id: 4,
@@ -72,8 +72,7 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Featured Projects</h2>
-          <p className="section-subtitle">Some of my recent work</p>
+          <h2 className="section-title">Projects</h2>
         </div>
         <div className="projects-grid">
           {projects.map((project) => (
