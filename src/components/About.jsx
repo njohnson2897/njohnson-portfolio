@@ -1,15 +1,30 @@
 const About = () => {
   const skills = {
-    frontend: ["HTML5", "CSS3", "JavaScript", "React.js", "Handlebars"],
+    frontend: [
+      "React",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Material-UI",
+      "Redux Toolkit",
+      "React Router",
+      "Canvas API",
+    ],
     backend: [
       "Node.js",
-      "Express.js",
+      "Express",
       "MongoDB",
       "PostgreSQL",
-      "Mongoose",
       "Sequelize",
+      "JWT",
     ],
-    tools: ["jQuery", "Bootstrap", "Git", "GitHub"],
+    tools: [
+      "Axios",
+      "Mapbox GL JS",
+      "Google Books API",
+      "Git",
+      "GitHub",
+    ],
   };
 
   return (

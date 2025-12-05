@@ -4,67 +4,61 @@ const Projects = () => {
       id: 1,
       title: "Bookmarkd",
       description:
-        "A social media platform for book lovers, inspired by Letterboxd. Users can create accounts, add books to their reading lists, post reviews, and form book clubs. Features Google Books API integration and MongoDB database.",
+        "A comprehensive social media platform for book enthusiasts, inspired by Letterboxd. Enables users to create personalized accounts, curate reading lists, publish detailed reviews, and establish book clubs. Features seamless Google Books API integration for extensive catalog access and a robust MongoDB database for efficient data management.",
       image: "/assets/images/projects/bookmarkd.PNG",
       liveUrl: "https://bookmarkd-c936.onrender.com",
       githubUrl: "https://github.com/njohnson2897/bookmarkd",
-      technologies: ["React", "Node.js", "MongoDB", "Google Books API"],
-      featured: true,
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Google Books API",
+      ],
     },
     {
       id: 2,
       title: "JuneGames",
       description:
-        "A workout tracking and social fitness application that allows users to track workouts, view other users' activities for inspiration, and share accomplishments with friends.",
+        "A retro-arcade style repository featuring a diverse collection of interactive games developed throughout my web development learning journey. The collection ranges from classic arcade implementations like Tetris to creative tools such as a digital canvas for artists to draw and paint. Each game demonstrates progressive skill development and showcases various web technologies in action.",
       image: "/assets/images/projects/junegames.PNG",
       liveUrl: "https://junegames.onrender.com",
       githubUrl: "https://github.com/njohnson2897/JuneGames",
-      technologies: ["React", "JavaScript", "CSS", "HTML5"],
+      technologies: ["React", "JavaScript", "CSS3", "HTML5", "Canvas API"],
     },
     {
       id: 3,
       title: "Trivl",
       description:
-        "A daily trivia game inspired by NYT Connections and Wordle. Features 10 daily questions with scoring, social sharing capabilities, and friend comparison features.",
+        "An interactive daily trivia platform inspired by NYT Connections and Wordle, featuring 10 daily questions with comprehensive scoring mechanics. Includes social sharing capabilities, friend comparison features, and detailed performance tracking. Built with a full-stack architecture supporting user authentication and real-time leaderboards.",
       image: "/assets/images/projects/trivl.PNG",
       liveUrl: "https://trivl.onrender.com/",
-      githubUrl: "https://github.com/njohnson2897/trivl-project",
-      technologies: ["JavaScript", "HTML5", "CSS", "React"],
-    },
-    {
-      id: 4,
-      title: "JATE - Just Another Text Editor",
-      description:
-        "A Progressive Web App (PWA) text editor with automatic data persistence, service worker implementation, and offline functionality. Installable and fully functional locally.",
-      image: "/assets/images/projects/jate.PNG",
-      liveUrl: "https://text-editor-project.onrender.com/",
-      githubUrl: "https://github.com/njohnson2897/text-editor",
-      technologies: ["PWA", "Service Worker", "IndexedDB", "Webpack"],
-    },
-    {
-      id: 5,
-      title: "Weather Dashboard",
-      description:
-        "A weather application providing current conditions and 5-day forecasts. Features city search, local storage for recent searches, and OpenWeather API integration.",
-      image: "/assets/images/projects/weather-app.PNG",
-      liveUrl: "https://njohnson2897.github.io/my-weather-dashboard/",
-      githubUrl: "https://github.com/njohnson2897/my-weather-dashboard",
+      githubUrl: "https://github.com/njohnson2897/Trivl",
       technologies: [
-        "JavaScript",
-        "OpenWeather API",
-        "Local Storage",
-        "Bootstrap",
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Sequelize",
+        "JWT",
       ],
     },
     {
-      id: 6,
-      title: "Project Tracker",
+      id: 4,
+      title: "Chicago Community Compass",
       description:
-        "A sleek task management application for students to track assignments, prioritize tasks, and manage deadlines effectively with a user-friendly interface.",
-      image: "/assets/images/projects/project-tracker.PNG",
-      liveUrl: "https://njohnson2897.github.io/my-project-tracker/",
-      githubUrl: "https://github.com/njohnson2897/my-project-tracker",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
+        "A comprehensive mapping platform designed to connect Chicago residents with essential social services. Provides an interactive map interface enabling users to locate food banks, shelters, healthcare services, and other critical community resources in their area. Features real-time availability updates, detailed service information, and intuitive filtering capabilities to streamline access to vital resources.",
+      image: "/assets/images/projects/chicago-community-compass.PNG",
+      liveUrl: "https://chicago-community-compass.onrender.com/",
+      githubUrl: "https://github.com/njohnson2897/chicago-community-compass",
+      technologies: [
+        "React",
+        "Material-UI",
+        "Mapbox GL JS",
+        "Redux Toolkit",
+        "React Router",
+        "Axios",
+      ],
     },
   ];
 
@@ -76,10 +70,7 @@ const Projects = () => {
         </div>
         <div className="projects-grid">
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className={`project-card ${project.featured ? "featured" : ""}`}
-            >
+            <div key={project.id} className="project-card">
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
                 <div className="project-overlay">

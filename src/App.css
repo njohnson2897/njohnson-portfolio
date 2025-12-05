@@ -397,12 +397,6 @@ a:hover {
     box-shadow: var(--shadow-xl);
 }
 
-.project-card.featured {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
 
 .project-image {
     position: relative;
@@ -814,9 +808,6 @@ a:hover {
         gap: 2rem;
     }
 
-    .project-card.featured {
-        grid-template-columns: 1fr;
-    }
 
     .timeline::before {
         left: 20px;
