@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 const Projects = () => {
+  const [imageErrors, setImageErrors] = useState({});
+
+  const handleImageError = (projectId) => {
+    setImageErrors((prev) => ({ ...prev, [projectId]: true }));
+  };
+
   const projects = [
     {
       id: 1,
@@ -60,6 +68,23 @@ const Projects = () => {
         "Axios",
       ],
     },
+    {
+      id: 5,
+      title: "Family Website Template",
+      description:
+        "A private family website template for sharing photos, updates, family history, and more. Includes a timeline feed with comments and reactions, photo gallery with tagging, family events calendar, directory with birthdays, family tree, documents storage, and invite-only registration. Built as a reusable starting point for any family to deploy their own site.",
+      image: "/assets/images/projects/family-website-template.PNG",
+      liveUrl: "https://family-website-template.onrender.com",
+      githubUrl: "https://github.com/njohnson2897/family-website-template",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "SQLite",
+        "JWT",
+        "Multer",
+      ],
+    },
   ];
 
   return (
@@ -72,7 +97,20 @@ const Projects = () => {
           {projects.map((project) => (
             <div key={project.id} className="project-card">
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+                {imageErrors[project.id] ? (
+                  <div className="project-image-placeholder">
+                    <span className="project-image-placeholder-text">
+                      Add screenshot: assets/images/projects/
+                      {project.image.split("/").pop()}
+                    </span>
+                  </div>
+                ) : (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    onError={() => handleImageError(project.id)}
+                  />
+                )}
                 <div className="project-overlay">
                   <div className="project-links">
                     <a
