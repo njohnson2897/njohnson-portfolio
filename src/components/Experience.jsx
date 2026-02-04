@@ -6,9 +6,9 @@ const Experience = () => {
       company: "Greater Chicago Food Depository",
       duration: "Jan 2022 - October 2023",
       description: [
-        "Supported the onboarding of new food market partners by assisting to secure grant and donor funding, general contracting and architectural services, and staff for pantry operations.",
-        "Managed the Depository's home delivery network, overseeing the delivery of over 300 meals to local residents with disabilities who were unable to travel to a food pantry.",
-        "Collaborated with the Obama Foundation in the launch of the Depository's Local Lunchbox summer pilot which provided thousands of nutritious and culturally relevant meals each day to students attending Chicago based summer youth programs.",
+        "Supported onboarding of new food market partners: grant and donor funding, contracting, and staff for pantry operations.",
+        "Managed home delivery network delivering 300+ meals to residents with disabilities who could not travel to a pantry.",
+        "Assessed service coverage gaps and operational constraints across partner organizations."
       ],
     },
     {
@@ -17,8 +17,8 @@ const Experience = () => {
       company: "College Possible",
       duration: "Jul 2020 - Jul 2021",
       description: [
-        "Mentored a cohort of 33 low-income, first-generation college students, providing academic, financial, and social-emotional support as they first navigate the college application process.",
-        "Provided wrap-around support, instructing students in test-taking strategies, editing college supplements and personal statements, and assisting students in applying for grants and scholarships.",
+        "Mentored 33 low-income, first-generation students through the college application process with academic and financial support.",
+        "Provided test prep, essay editing, and scholarship application support.",
       ],
     },
   ];
