@@ -7,11 +7,9 @@ const Hero = () => {
             <h1 className="hero-title">
               Hi, I'm <span className="highlight">Nate Johnson</span>
             </h1>
-            <h2 className="hero-subtitle">Full Stack Developer</h2>
+            <h2 className="hero-subtitle">Technologist building data-driven web applications for complex systems</h2>
             <p className="hero-description">
-              I build modern web applications that make a difference. Based in
-              Chicago, IL, I specialize in creating engaging user experiences
-              with cutting-edge technologies.
+            I design and build practical web applications informed by real-world constraints. My background spans public policy, nonprofit operations, and hands-on development — with a focus on clarity, usability, and systems thinking.
             </p>
             <div className="hero-buttons">
               <a href="#projects" className="btn btn-primary">

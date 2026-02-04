@@ -36,25 +36,13 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I am a software developer based in Chicago, Illinois, with a
-              passion for building full-stack web applications and creating
-              engaging user experiences. My professional background is primarily
-              in the non-profit sector, where I've learned the importance of
-              creating technology that serves real people and communities.
+            I’m a technologist with a background in public policy and frontline nonprofit operations. I’ve worked in food access and education across Chicago, and I build web applications informed by real users, operational constraints, and messy data.
             </p>
             <p>
-              My journey began at College Possible, where I supported
-              first-generation college students in Chicago Public Schools. I
-              then spent two years at the Greater Chicago Food Depository,
-              supporting the Community Engagement Team in their mission to end
-              hunger in Chicago. These experiences have shaped my approach to
-              software development - I believe technology should be accessible,
-              impactful, and meaningful.
+            My work focuses on turning complex systems into usable tools — whether that’s mapping food access resources, designing data-driven interfaces, or supporting products that sit at the intersection of technology and operations.
             </p>
             <p>
-              I'm currently seeking opportunities to return to the nonprofit
-              sector, where I can leverage my software development skills to
-              make a difference in Chicago and beyond.
+            I’m especially interested in roles where systems thinking, technical fluency, and execution matter more than buzzwords.
             </p>
           </div>
           <div className="skills-grid">
