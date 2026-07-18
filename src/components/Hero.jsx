@@ -9,7 +9,7 @@ const Hero = () => {
             </h1>
             <h2 className="hero-subtitle">Technologist building data-driven web applications for complex systems</h2>
             <p className="hero-description">
-            I design and build practical web applications informed by real-world constraints. My background spans public policy, nonprofit operations, and hands-on development — with a focus on clarity, usability, and systems thinking.
+            I design and build practical web applications informed by real-world constraints. My background spans public policy, nonprofit operations, and hands-on development with a focus on clarity, usability, and systems thinking.
             </p>
             <div className="hero-buttons">
               <a href="#projects" className="btn btn-primary">
