@@ -2,7 +2,7 @@
 
 Personal portfolio site built with React and Vite.
 
-**Live site:** njohnson-portfolio.onrender.com
+**Live site:** [njohnson-portfolio.onrender.com](https://njohnson-portfolio.vercel.app/)
 
 ## Tech Stack
 
