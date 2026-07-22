@@ -15,7 +15,7 @@ const Projects = () => {
       description:
         "A data-driven civic web application focused on food access in Chicago. Enables users to locate food pantries and community-run distribution sites using geospatial search and realistic service filters. Built as a scoped MVP informed by firsthand experience in food access and community engagement work.",
       image: "/assets/images/projects/chicago-community-compass-fa.PNG",
-      liveUrl: "https://https://chicago-community-compass-fa.vercel.app//",
+      liveUrl: "https://chicago-community-compass-fa.vercel.app//",
       githubUrl: "https://github.com/njohnson2897/chicago-community-compass-fa",
       technologies: ["React", "Mapbox GL JS", "Redux Toolkit", "Material-UI"],
       featured: true,
