@@ -26,7 +26,7 @@ const Projects = () => {
       description:
         "Social platform for book lovers: reading lists, reviews, and book clubs. Google Books API integration and MongoDB for catalog and data.",
       image: "/assets/images/projects/bookmarkd.PNG",
-      liveUrl: "https://bookmarkd-c936.onrender.com",
+      liveUrl: "https://bookmarkd-live.vercel.app/",
       githubUrl: "https://github.com/njohnson2897/bookmarkd",
       technologies: ["React", "Node.js", "MongoDB", "Google Books API"],
       featured: false,
@@ -37,7 +37,7 @@ const Projects = () => {
       description:
         "Daily trivia platform with 10 questions, scoring, and social sharing. Full-stack app with auth and leaderboards.",
       image: "/assets/images/projects/trivl.PNG",
-      liveUrl: "https://trivl.onrender.com/",
+      liveUrl: "https://trivl.vercel.app/",
       githubUrl: "https://github.com/njohnson2897/Trivl",
       technologies: ["React", "Node.js", "PostgreSQL", "JWT"],
       featured: false,
