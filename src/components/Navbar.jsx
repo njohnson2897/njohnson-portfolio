@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
+const Navbar = ({ isMenuOpen, setIsMenuOpen, isScrolled }) => {
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isScrolled ? "navbar-scrolled" : ""}`}>
       <div className="nav-container">
         <div className="nav-logo">
           <span className="logo-text">NJ</span>
