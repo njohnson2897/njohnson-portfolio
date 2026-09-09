@@ -17,7 +17,7 @@ const Projects = () => {
       image: "/assets/images/projects/chicago-community-compass-fa.PNG",
       liveUrl: "https://chicago-community-compass-fa.vercel.app//",
       githubUrl: "https://github.com/njohnson2897/chicago-community-compass-fa",
-      technologies: ["React", "Mapbox GL JS", "Redux Toolkit", "Material-UI"],
+      technologies: ["React", "TypeScript", "Mapbox GL JS", "Material-UI"],
       featured: true,
     },
     {

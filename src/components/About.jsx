@@ -1,5 +1,5 @@
 const About = () => {
-  const coreTools = "React, JavaScript, Node.js, SQL, Mapbox, REST APIs";
+  const coreTools = "React, JavaScript, TypeScript, Node.js, SQL, Mapbox, REST APIs";
 
   return (
     <section id="about" className="about">
