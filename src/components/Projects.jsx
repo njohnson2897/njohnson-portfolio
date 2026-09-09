@@ -42,17 +42,17 @@ const Projects = () => {
       technologies: ["React", "Node.js", "PostgreSQL", "JWT"],
       featured: false,
     },
-    {
-      id: 4,
-      title: "Family Website Template",
-      description:
-        "Private family site template: timeline feed, photo gallery, events calendar, directory, and invite-only registration.",
-      image: "/assets/images/projects/family-website-template.PNG",
-      liveUrl: "https://family-website-template.onrender.com",
-      githubUrl: "https://github.com/njohnson2897/family-website-template",
-      technologies: ["React", "Node.js", "SQLite", "JWT"],
-      featured: false,
-    },
+    // {
+    //   id: 4,
+    //   title: "Family Website Template",
+    //   description:
+    //     "Private family site template: timeline feed, photo gallery, events calendar, directory, and invite-only registration.",
+    //   image: "/assets/images/projects/family-website-template.PNG",
+    //   liveUrl: "https://family-website-template.onrender.com",
+    //   githubUrl: "https://github.com/njohnson2897/family-website-template",
+    //   technologies: ["React", "Node.js", "SQLite", "JWT"],
+    //   featured: false,
+    // },
   ];
 
   return (
