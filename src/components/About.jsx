@@ -16,14 +16,10 @@ const About = () => {
               real users, operational constraints, and messy data.
             </p>
             <p>
-              My work focuses on turning complex systems into usable tools —
+              I am interested in turning complex systems into usable tools,
               whether that's mapping food access resources, designing
               data-driven interfaces, or supporting products that sit at the
               intersection of technology and operations.
-            </p>
-            <p>
-              I'm especially interested in roles where systems thinking,
-              technical fluency, and execution matter more than buzzwords.
             </p>
             <p className="about-tools">
               <strong>Core tools:</strong> {coreTools}
