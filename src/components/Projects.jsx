@@ -13,11 +13,11 @@ const Projects = () => {
       title: "Chicago Community Compass",
       subtitle: "Food Access Vertical",
       description:
-        "A data-driven civic web application focused on food access in Chicago. Enables users to locate food pantries and community-run distribution sites using geospatial search and realistic service filters. Built as a scoped MVP informed by firsthand experience in food access and community engagement work.",
+        "A full-stack civic web application for finding food access resources in Chicago. A React frontend fetches normalized data from a custom Node/Express REST API, with geospatial search and realistic service filters. Built as a scoped MVP informed by firsthand experience in food access and community engagement work.",
       image: "/assets/images/projects/chicago-community-compass-fa.PNG",
-      liveUrl: "https://chicago-community-compass-fa.vercel.app//",
+      liveUrl: "https://chicago-community-compass-fa.vercel.app",
       githubUrl: "https://github.com/njohnson2897/chicago-community-compass-fa",
-      technologies: ["React", "TypeScript", "Mapbox GL JS", "Material-UI"],
+      technologies: ["React", "TypeScript", "Node/Express", "REST API", "Mapbox GL JS"],
       featured: true,
     },
     {
