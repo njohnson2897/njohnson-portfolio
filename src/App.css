@@ -693,7 +693,7 @@ a:hover {
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 1.5rem;
     background: var(--bg-secondary);
     border-radius: var(--border-radius);
@@ -736,6 +736,7 @@ a:hover {
 
 .contact-details a {
     color: var(--text-secondary);
+    padding-right: 5;
 }
 
 .contact-details a:hover {
