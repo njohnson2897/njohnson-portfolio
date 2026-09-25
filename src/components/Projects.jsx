@@ -28,7 +28,7 @@ const Projects = () => {
       image: "/assets/images/projects/bookmarkd.PNG",
       liveUrl: "https://bookmarkd-live.vercel.app/",
       githubUrl: "https://github.com/njohnson2897/bookmarkd",
-      technologies: ["React", "Node.js", "MongoDB", "Google Books API"],
+      technologies: ["React", "Node.js", "MongoDB", "Google Books API", "GraphQL"],
       featured: false,
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
       image: "/assets/images/projects/trivl.PNG",
       liveUrl: "https://trivl.vercel.app/",
       githubUrl: "https://github.com/njohnson2897/Trivl",
-      technologies: ["React", "Node.js", "PostgreSQL", "JWT", "GraphQL"],
+      technologies: ["React", "Node.js", "PostgreSQL", "JWT"],
       featured: false,
     },
     // {
